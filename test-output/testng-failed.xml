@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E-commerce_Selenium_TestNG-Simplilearn]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="E_commerceTesting(failed)">
+    <classes>
+      <class name="Tests.E_commerceTesting">
+        <methods>
+          <include name="T01_HomePageTest"/>
+          <include name="closeDriver"/>
+          <include name="T02_PlaceOrderTest"/>
+        </methods>
+      </class> <!-- Tests.E_commerceTesting -->
+    </classes>
+  </test> <!-- E_commerceTesting(failed) -->
+</suite> <!-- Failed suite [E-commerce_Selenium_TestNG-Simplilearn] -->
